@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>cloud2020</artifactId>
-        <groupId>com.ldamer.springcloud</groupId>
+        <groupId>com.lamdaer.springcloud</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -13,7 +13,7 @@
     <dependencies>
         <!-- 引入自己定义的 api 通用包，可以使用 Payment 支付 Entity -->
         <dependency>
-            <groupId>com.ldamer.springcloud</groupId>
+            <groupId>com.lamdaer.springcloud</groupId>
             <artifactId>cloud-api-commons</artifactId>
             <version>${project.version}</version>
         </dependency>
