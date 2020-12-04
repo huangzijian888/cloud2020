@@ -8,3 +8,6 @@ eureka:
     register-with-eureka: false
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/
+ribbon:
+  ConnectTimeout: 9000
+  ReadTimeout: 9000
